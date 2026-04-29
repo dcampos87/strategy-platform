@@ -40,9 +40,10 @@ const Index = () => {
         </h1>
 
         {/* Subtitle */}
-        <p className="max-w-xl text-center text-lg md:text-xl text-muted-foreground mb-12 leading-relaxed animate-fade-up" style={{ animationDelay: "0.3s", opacity: 0 }}>
-          Estamos construyendo el nuevo ecosistema digital multisite de{" "}
-          <span className="text-foreground font-semibold">Efecto Estrategia Comunicaciones</span>. Pronto disponible.
+        <p className="max-w-xl text-center text-lg md:text-xl text-muted-foreground mb-12 leading-relaxed animate-fade-up whitespace-pre-line" style={{ animationDelay: "0.3s", opacity: 0 }}>
+          Estamos construyendo el nuevo ecosistema digital de{"\n"}
+          <span className="text-foreground font-semibold">Efecto Estrategia Comunicaciones.</span>{"\n"}
+          Pronto disponible.
         </p>
 
         {/* Progress bar */}
