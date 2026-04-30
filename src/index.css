@@ -77,8 +77,10 @@
   * {
     @apply border-border;
   }
-  body {
+  html, body {
     @apply bg-background text-foreground font-sans antialiased;
+    overflow: hidden;
+    height: 100%;
   }
 }
 
