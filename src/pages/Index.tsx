@@ -50,7 +50,7 @@ const Index = () => {
       {/* Footer - fuera del flujo flex para no desplazar contenido */}
       <footer className="absolute bottom-3 sm:bottom-4 left-0 right-0 text-center text-xs sm:text-sm text-muted-foreground animate-fade-up px-4" style={{ animationDelay: "0.6s", opacity: 0 }}>
         <p>© {new Date().getFullYear()} Efecto Estrategia Comunicaciones — Todos los derechos reservados</p>
-        <p className="mt-1">
+        {/* <p className="mt-1">
           Desarrollado con ❤️ por{" "}
           <a
             href="https://proefexperu.com"
@@ -60,7 +60,7 @@ const Index = () => {
           >
             PROEFEX
           </a>
-        </p>
+        </p> */}
       </footer>
     </main>
   );
