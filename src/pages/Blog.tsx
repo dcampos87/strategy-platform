@@ -25,7 +25,8 @@ export default function Blog() {
       const { data, error } = await supabase
         .from("blog_posts")
         .select("*")
-        .order("published_at", { ascending: false });
+        .order("published_at", false)
+        .then<BlogPost>();
 
       if (!error && data) {
         setPosts(data as BlogPost[]);
